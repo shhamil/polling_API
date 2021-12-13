@@ -1,6 +1,7 @@
 # polling_API
 ### Commands for local deployment
 - git clone https://github.com/shhamil/polling_API.git
+- cd polling_API
 - docker-compose build --no-cache
 - docker-compose up
 
