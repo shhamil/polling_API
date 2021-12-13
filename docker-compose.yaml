@@ -18,3 +18,14 @@ services:
       - postgres
     ports:
       - "8000:8000"
+  nginx:
+    build:
+      context: ./docker/nginx
+      dockerfile: Dockerfile
+    depends_on:
+      - web
+      - postgres
+    ports:
+      - "80:80"
+    volumes:
+      - ./static/:/static

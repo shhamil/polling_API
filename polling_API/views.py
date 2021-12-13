@@ -139,6 +139,7 @@ def get_active_poll(request, pk):
 class CreateAnswer(generics.CreateAPIView):
     authentication_classes = ()
     permission_classes = ()
+    queryset = ''
     serializer_class = UserAnswerSerializator
 
     def post(self, request, *args, **kwargs):

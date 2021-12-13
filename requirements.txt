@@ -1,4 +1,4 @@
-Django~=3.1
+Django~=3.1.14
 djangorestframework~=3.12.4
 beautifulsoup4~=4.10.0
 soupsieve~=2.3.1
@@ -19,3 +19,4 @@ inflection~=0.5.1
 idna~=3.3
 pyparsing~=3.0.6
 setuptools~=57.4.0
+gunicorn
